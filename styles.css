@@ -1,0 +1,175 @@
+/**** Tags ******/
+
+body {
+  background-color: hsl(0, 0%, 95%);
+  margin: 10% 25%;
+  max-width: 1440px;
+  min-width: 375px;
+  padding-bottom: 2%;
+  align-content: center;
+}
+
+h3 {
+  display: inline-block;
+  font-family: 'Big Shoulders Display', cursive;
+  font-style: bold;
+  font-size: 2em;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: 700;
+  margin: 125px auto 10px 50px;
+  padding: 0;
+}
+
+p {
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: 400;
+  Font-size: 11px;
+  width: 155px;
+  margin-left: 50px;
+  padding: 0;
+  line-height: 2;
+}
+
+/***** Images ********/
+
+.sedans {
+  display: inline-block;
+  position: absolute;
+  margin: 50px auto auto 50px;
+}
+
+.suvs {
+  display: inline-block;
+  position: absolute;
+  margin: 50px auto auto 50px;
+}
+
+.luxury {
+  display: inline-block;
+  position: absolute;
+  margin: 50px auto auto 50px;
+}
+
+/**** Classes ******/
+
+.container1 {
+  background-color:  hsl(31, 77%, 52%);
+  display: inline-block;
+  width: 255px;
+  height: 450px;
+  margin: 0;
+}
+
+.container2 {
+  background-color: hsl(184, 100%, 22%);
+  display: inline-block;
+  position: absolute;
+  width: 255px;
+  height: 450px;
+  margin: 0;
+}
+
+.container3 {
+  background-color: hsl(179, 100%, 13%);
+  display: inline-block;
+  position: absolute;
+  width: 255px;
+  height: 450px;
+  margin: auto auto auto 255px;
+}
+
+.attribution {
+  font-size: 20px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/****** Buttons *********/
+
+.learn-more-sedans {
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   border-radius: 100px;
+   color: hsl(31, 77%, 52%);
+   font-family: Arial;
+   font-size: 11px;
+   font-weight: 100;
+   padding: 9px 23px;
+   background-color: #FFFFFF;
+  border: solid hsla(0, 0%, 100%, 0.75) 2px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 60px auto auto 50px;
+}
+
+.learn-more-sedans:hover {
+   background-color: hsl(31, 77%, 52%);
+   border: solid hsla(0, 0%, 100%, 0.75) 2px;
+   color: hsla(0, 0%, 100%, 0.75);
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   border-radius: 100px;
+   text-decoration: none;
+}
+
+.learn-more-suvs {
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   border-radius: 100px;
+   color: hsl(184, 100%, 22%);
+   font-family: Arial;
+   font-size: 11px;
+   font-weight: 100;
+  padding: 9px 23px;
+   background-color: #FFFFFF;
+  border: solid hsla(0, 0%, 100%, 0.75) 2px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+    margin: 60px auto auto 50px;
+}
+
+.learn-more-suvs:hover {
+   background-color: hsl(184, 100%, 22%);
+   border: solid hsla(0, 0%, 100%, 0.75) 2px;
+   color: hsla(0, 0%, 100%, 0.75);
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   border-radius: 100px;
+   text-decoration: none;
+}
+
+.learn-more-luxury {
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   border-radius: 100px;
+   color: hsl(179, 100%, 13%);
+   font-family: Arial;
+   font-size: 11px;
+   font-weight: 100;
+   padding: 9px 23px;
+   background-color: #FFFFFF;
+  border: solid hsla(0, 0%, 100%, 0.75) 2px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+    margin: 60px auto auto 50px;
+}
+
+.learn-more-luxury:hover {
+   background-color: hsl(179, 100%, 13%);
+   border: solid hsla(0, 0%, 100%, 0.75) 2px;
+   color: hsla(0, 0%, 100%, 0.75);
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   border-radius: 100px;
+   text-decoration: none;
+}
